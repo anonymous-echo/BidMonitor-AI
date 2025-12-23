@@ -74,8 +74,8 @@ CONFIG_FILE = os.path.join(BASE_DIR, 'server', 'server_config.json')
 
 # HTTP Basic 认证配置
 security = HTTPBasic()
-AUTH_USERNAME = "CDKJ"
-AUTH_PASSWORD = "cdkj"
+AUTH_USERNAME = "anonymous"
+AUTH_PASSWORD = "HhAxxJkB"
 
 def verify_credentials(credentials: HTTPBasicCredentials = Depends(security)):
     """验证用户名和密码"""
